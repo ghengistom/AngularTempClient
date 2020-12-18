@@ -20,6 +20,7 @@
     "@angular/platform-browser-dynamic": "~8.2.14",
     "@angular/router": "~8.2.14",
     "angular-plotly.js": "^3.0.0",
+    "express": "^4.17.1",
     "plotly.js": "^1.57.1",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
@@ -48,5 +49,5 @@
   },
   "engines": {
     "node": "12.14.1"
-    }
+  }
 }
