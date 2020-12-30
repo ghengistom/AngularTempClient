@@ -9,7 +9,7 @@ import { TemperatureTemplate } from './temperatureTemplate';
 })
 export class GetTemperatureService {
 
-  private tempUrl = 'http://192.168.86.43:9000/gettemp';
+  private tempUrl = 'http://47.151.178.94:9000/gettemp';
   httpClient: any;
 
   constructor(

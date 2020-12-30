@@ -11,7 +11,7 @@ import { PlotlyModule } from 'angular-plotly.js';
 })
 export class GetTemphistoryService {
 
-  private tempUrl = 'http://192.168.86.43:9000/gethistory';
+  private tempUrl = 'http://47.151.178.94:9000/gethistory';
   httpClient: any;
 
   constructor() {

@@ -47,7 +47,7 @@ export class TemperaturesComponent implements OnInit {
   
   getTemp(): Observable<any[]> {
 
-    return this.httpClient.get('http://47.153.168.123:9000/gettemp')
+    return this.httpClient.get('http://192.168.4.87:9000/gettemp')
     .pipe(
       map<any, any[]>(response => {
         console.log(response);

@@ -48,7 +48,7 @@ export class GraphTestComponent implements OnInit {
    }
 
   getHistory(): Observable<any[]> {
-    return this.httpClient.get('http://47.153.168.123:9000/gethistory')
+    return this.httpClient.get('http://192.168.4.87:9000/gethistory')
     .pipe(
       map<any, any[]>(response => {
         data = response;

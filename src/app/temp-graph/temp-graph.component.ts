@@ -44,7 +44,7 @@ export class TempGraphComponent implements OnInit {
 
 //this is not doing anything
   getHistory(): Observable<any[]> {
-    return this.httpClient.get('http://192.168.86.71:9000/gethistory')
+    return this.httpClient.get('http://47.151.178.94:9000/gethistory')
     .pipe(
       map<any, any[]>(response => {
         var data = response;
